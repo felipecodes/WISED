@@ -9,7 +9,7 @@
 <div id = div1>
 
 <?php 
-$teste = 'uhuu5';
+$teste = 'uhuu6';
 echo ($teste);
 ?>
 
