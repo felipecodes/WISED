@@ -1,33 +1,17 @@
 .navigation{
     position: fixed;
     width: 8em;
-    padding: 20px
+    padding: 20px;
+  
+}
+
+.menu{
+
+  position: fixed;
+  width: 50em;
+  left: 55%;
+  top: 40px;
+
 
 
 }
-
-.cls-4 {
-    fill: #e74c3c;
-    font-size: 14px;
-    font-family: OpenSans, Open Sans;
-  }
-
-  .cls-5 {
-    fill: #939bc1;
-  }
-
-  .cls-6 {
-    fill: #f4f5f9;
-  }
-
-  .cls-7, .cls-8 {
-    fill: none;
-  }
-
-  .cls-7 {
-    stroke: #e74c3c;
-  }
-
-  .cls-8 {
-    stroke: none;
-  }
