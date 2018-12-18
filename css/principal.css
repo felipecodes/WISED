@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
-    color: black;
+    background-color: #cbc6c0;
   }
 
   .texto {
@@ -34,3 +34,44 @@ body, html {
     font: 100px "Lato", sans-serif;
     color: rgb(255, 255, 255);
   }
+
+  .cls-1, .cls-3 {
+    fill: #f4f5f9;
+  }
+
+  .cls-1 {
+    
+    font-size: 65px;
+    letter-spacing: 0.1em;
+  }
+
+  .cls-1, .cls-2 {
+    font-family: OpenSans, Open Sans;
+  }
+
+  .cls-2 {
+    fill: #cbc6c0;
+    font-size: 14px;
+  }
+
+  .cls-3 {
+    font-size: 24px;
+    font-family: SegoeUI, Segoe UI;
+    letter-spacing: 0.05em;
+  }
+    
+.inicio{
+    padding: 150px;
+    position: relative;
+    top: 150px;
+    left: 20px;
+
+ 
+
+}
+    
+    
+
+ 
+
+  
