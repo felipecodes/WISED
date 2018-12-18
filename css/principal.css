@@ -5,9 +5,17 @@ body, html {
     color: black;
   }
 
+  .texto {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
   .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,4 +25,12 @@ body, html {
   .bgimg-1 {
     background-image: url("../image/Background1.png");
     min-height: 100%;
+  }
+
+
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 100px "Lato", sans-serif;
+    color: rgb(255, 255, 255);
   }
