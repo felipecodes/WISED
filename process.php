@@ -29,7 +29,7 @@
             $mail = new SendGrid\Mail($from, $subject, $to, $content);
             
             //Necessário inserir a chave
-            $apiKey = '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';
+            $apiKey = '';
             $sg = new \SendGrid($apiKey);
 
             $response = $sg->client->mail()->send()->post($mail);
@@ -52,7 +52,7 @@
             $mail = new SendGrid\Mail($from, $subject, $to, $content);
         
             //Necessário inserir a chave
-            $apiKey = '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';
+            $apiKey = '';
             $sg = new \SendGrid($apiKey);
 
             $response = $sg->client->mail()->send()->post($mail);
