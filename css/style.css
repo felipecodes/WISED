@@ -121,6 +121,7 @@ input[type="color"],
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     border-bottom: 2px solid #ddd;
+    
 }
 /*.form-control:focus {
     border-color: #bcefeb;
@@ -130,6 +131,10 @@ input[type="color"],
     outline: 0;
     -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075),0 0 0px rgba(102,175,233,.6);
     box-shadow: inset 0 0px 0px rgba(0,0,0,.075),0 0 0px rgba(102,175,233,.6);
+}
+
+textarea{
+    resize: none;
 }
 h1,
 h2,
@@ -415,6 +420,11 @@ Button
     border: 1px solid transparent;
 }
 
+
+.main_history .single_history_content .head_title h2{
+    border-left:6px solid #e74c3c;
+    padding-left: 30px;
+}
 /*
 Extra height css
 */
@@ -1036,6 +1046,20 @@ li .single_team_text p{
     margin-bottom:45px;
     overflow: hidden;
 }
+
+
+.main-bg{
+    background-image: url('../images/counterbg.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.main-bg h2 {
+    color: white;
+}
+    
+
 
 
 
