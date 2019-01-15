@@ -24,6 +24,10 @@ body {
     overflow: hidden !important;
 }
 
+
+
+
+
 .single_info_text{
     margin-top: 5px;
 }
@@ -32,11 +36,18 @@ body {
     top: -83px;
 }
 
+@media (max-width: 991px){
+    .navbar-nav{background:#202020;}
+
+}
+
 @media (max-width: 330px){
     .logo{
         top: -117px;
     }
+    
 }
+
 
 
 .loaded {
