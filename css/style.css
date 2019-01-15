@@ -24,6 +24,20 @@ body {
     overflow: hidden !important;
 }
 
+.single_info_text{
+    margin-top: 5px;
+}
+.logo{
+    position: relative;
+    top: -83px;
+}
+
+@media (max-width: 330px){
+    .logo{
+        top: -117px;
+    }
+}
+
 
 .loaded {
     width: 60px;
